@@ -1,14 +1,23 @@
 .navContainer{
   display: grid;
   grid-template-columns: 200px auto 200px;
-  background-color: green;
+  background-color: rgb(38, 161, 38);
   padding: 20px;
   align-items: center;
+  border-radius: 20px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  margin-left: 50px;
 }
 .logoImage{
-  margin-left: 30px;
-  width: 150px;
-  border-radius: 100%;
+  top: 30px;
+  left: 55px;
+  width: 149px;
+  position: absolute;
 }
 .navBar{
   display: flex;
@@ -26,7 +35,7 @@
 }
 
 .navBar .link a:hover{
-  background-color: black;
+  background-color: rgb(34, 10, 10);
   opacity: 0.8;
   transition: 2s;
   color: white;
