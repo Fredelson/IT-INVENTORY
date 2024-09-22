@@ -1,0 +1,53 @@
+.navContainer{
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  background-color: green;
+  padding: 20px;
+  align-items: center;
+}
+.logoImage{
+  margin-left: 30px;
+  width: 150px;
+  border-radius: 100%;
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.link a{
+  font-family: Prata;
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+  padding: 25px;
+  border-radius: 20%;
+}
+
+.navBar .link a:hover{
+  background-color: black;
+  opacity: 0.8;
+  transition: 2s;
+  color: white;
+  font-size: 40px;
+}
+.logout{
+  margin-left: 20px;
+}
+.logOut{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Prata;
+  background: none;
+  border: none;
+
+}
+.logOut:hover{
+  border: solid 1px black;
+  background-color: white;
+  opacity: .8;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20%;
+}
